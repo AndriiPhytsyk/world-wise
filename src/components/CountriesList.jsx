@@ -13,7 +13,6 @@ function CountriesList() {
     const countries = Object.values(cities.reduce((acc, city) => {
         return {...acc, [city.country]: {country: city.country, emoji: city.emoji}}
     }, {}))
-    console.log(countries);
     return <ul className={styles.countryList}>
         {countries.map(country => (
             <CountryItem key={country.id} country={country}/>
