@@ -3,6 +3,7 @@ import {useEffect, useState} from "react";
 import PageNav from "../components/PageNav.jsx";
 import {useAuthContext} from "../contexts/FakeAuthContext.jsx";
 import {useNavigate} from "react-router-dom";
+import Button from "../components/Button.jsx";
 
 export default function Login() {
   // PRE-FILL FOR DEV PURPOSES
@@ -47,7 +48,7 @@ export default function Login() {
         </div>
 
         <div>
-          <button type="submit">Login</button>
+          <Button type="primary">Login</Button>
         </div>
       </form>
     </main>
