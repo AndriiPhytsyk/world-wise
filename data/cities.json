@@ -1,40 +1,88 @@
 {
   "cities": [
     {
-      "cityName": "Lisbon",
-      "country": "Portugal",
-      "emoji": "🇵🇹",
-      "date": "2027-10-31T15:59:59.138Z",
-      "notes": "My favorite city so far!",
+      "cityName": "Prague",
+      "country": "Czechia",
+      "date": "2023-10-21T08:51:37.822Z",
+      "emoji": "🇨🇿",
+      "notes": "asd",
       "position": {
-        "lat": 38.727881642324164,
-        "lng": -9.140900099907554
+        "lat": "50.009791522187726",
+        "lng": "14.414062500000002"
       },
-      "id": 73930385
+      "id": 98443198
     },
     {
-      "cityName": "Madrid",
+      "cityName": "Meranges",
       "country": "Spain",
+      "date": "2023-10-21T08:53:20.574Z",
       "emoji": "🇪🇸",
-      "date": "2027-07-15T08:22:53.976Z",
       "notes": "",
       "position": {
-        "lat": 40.46635901755316,
-        "lng": -3.7133789062500004
+        "lat": "42.456671196631554",
+        "lng": "1.7578125000000002"
       },
-      "id": 17806751
+      "id": 98443199
     },
     {
-      "cityName": "Berlin",
-      "country": "Germany",
-      "emoji": "🇩🇪",
-      "date": "2027-02-12T09:24:11.863Z",
-      "notes": "Amazing 😃",
+      "cityName": "Saint-Sebastien",
+      "country": "France",
+      "date": "2023-10-21T08:53:29.090Z",
+      "emoji": "🇫🇷",
+      "notes": "",
       "position": {
-        "lat": 52.53586782505711,
-        "lng": 13.376933665713324
+        "lat": "46.39260090053802",
+        "lng": "1.56005859375"
       },
-      "id": 98443197
+      "id": 98443200
+    },
+    {
+      "cityName": "Alhambra",
+      "country": "Spain",
+      "date": "2023-10-21T08:53:46.485Z",
+      "emoji": "🇪🇸",
+      "notes": "",
+      "position": {
+        "lat": "38.90238891026661",
+        "lng": "-3.080734517936548"
+      },
+      "id": 98443201
+    },
+    {
+      "cityName": "Velika Gorica",
+      "country": "Croatia",
+      "date": "2023-10-21T08:55:00.392Z",
+      "emoji": "🇭🇷",
+      "notes": "",
+      "position": {
+        "lat": "45.69032262306998",
+        "lng": "16.040039062500004"
+      },
+      "id": 98443202
+    },
+    {
+      "cityName": "Apeldoorn",
+      "country": "Netherlands (the)",
+      "date": "2023-10-21T10:21:05.656Z",
+      "emoji": "🇳🇱",
+      "notes": "asdas",
+      "position": {
+        "lat": "52.21307656370786",
+        "lng": "5.9326171875"
+      },
+      "id": 98443203
+    },
+    {
+      "cityName": "Saint-Symphorien",
+      "country": "France",
+      "date": "2023-10-21T10:22:08.969Z",
+      "emoji": "🇫🇷",
+      "notes": "",
+      "position": {
+        "lat": "44.416230681815065",
+        "lng": "-0.6152343750000001"
+      },
+      "id": 98443204
     }
   ]
 }
