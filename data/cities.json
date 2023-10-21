@@ -1,18 +1,6 @@
 {
   "cities": [
     {
-      "cityName": "Prague",
-      "country": "Czechia",
-      "date": "2023-10-21T08:51:37.822Z",
-      "emoji": "🇨🇿",
-      "notes": "asd",
-      "position": {
-        "lat": "50.009791522187726",
-        "lng": "14.414062500000002"
-      },
-      "id": 98443198
-    },
-    {
       "cityName": "Meranges",
       "country": "Spain",
       "date": "2023-10-21T08:53:20.574Z",

@@ -11,6 +11,7 @@ import City from "./components/City.jsx";
 import Form from "./components/Form.jsx";
 import {CitiesProvider} from "./contexts/CitiesContext.jsx";
 import {AuthProvider} from "./contexts/FakeAuthContext.jsx";
+import ProtectedRoute from "./pages/ProtectedRoute.jsx";
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
                         <Route path="pricing" element={<Pricing/>}/>
                         <Route path="/login" element={<Login/>}/>
                         <Route path="cities" element={<p></p>}/>
-                        <Route path="app" element={<AppLayout/>}>
+                        <Route path="app" element={<ProtectedRoute><AppLayout/></ProtectedRoute>}>
                             <Route index element={<Navigate replace to="cities"/>}/>
                             <Route path="cities" element={<CitiesList/>}/>
                             <Route path="cities/:id" element={<City/>}/>
